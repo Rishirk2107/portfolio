@@ -76,7 +76,7 @@ export default function Home() {
       {/* Contact & Social Section */}
       <section className="py-16">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Let's Connect</h2>
+          <h2 className="text-3xl font-bold mb-8">Let&apos;s Connect</h2>
           <div className="flex flex-col sm:flex-row justify-center gap-6 mb-8">
             <a href="mailto:rishikumarss2004@gmail.com" className="hover:text-cyan-400 transition flex items-center justify-center gap-2">
               <span className="text-gray-400">Email:</span> rishikumarss2004@gmail.com

@@ -42,7 +42,7 @@ export default function About() {
         <div className="card p-6">
           <h3 className="text-2xl font-semibold text-blue-400 mb-4">Currently Working On</h3>
           <p className="text-gray-300">
-            I'm currently interning at Adya as a Software Developer, focusing on integrating CPaaS channels like Twilio and social media APIs. I'm also exploring advanced AI integrations and cloud architectures.
+            I&apos;m currently interning at Adya as a Software Developer, focusing on integrating CPaaS channels like Twilio and social media APIs. I&apos;m also exploring advanced AI integrations and cloud architectures.
           </p>
         </div>
 
