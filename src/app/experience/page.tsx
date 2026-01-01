@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Experience() {
   return (
@@ -19,7 +20,7 @@ export default function Experience() {
         <article className="card p-6 flex flex-col sm:flex-row gap-4 items-start">
           <div className="w-full sm:w-36 flex-shrink-0 flex items-center justify-center">
               <div className="bg-white p-2 rounded-md shadow">
-                <img src="/adya.png" alt="Adya logo" className="w-28 h-auto block" />
+                <Image src="/adya.png" alt="Adya logo" width={112} height={112} className="block" />
               </div>
           </div>
           <div className="flex-1">
@@ -43,7 +44,7 @@ export default function Experience() {
         <article className="card p-6 flex flex-col sm:flex-row gap-4 items-start">
           <div className="w-full sm:w-36 flex-shrink-0 flex items-center justify-center">
               <div className="bg-white p-2 rounded-md shadow">
-                <img src="/doodleblue-logo.png" alt="DoodleBlue logo" className="w-28 h-auto block" />
+                <Image src="/doodleblue-logo.png" alt="DoodleBlue logo" width={112} height={112} className="block" />
               </div>
           </div>
           <div className="flex-1">

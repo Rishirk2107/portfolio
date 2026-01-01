@@ -1,5 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
+
 
 export default function About() {
   return (
@@ -11,7 +13,7 @@ export default function About() {
         className="container mx-auto max-w-4xl w-full flex flex-col gap-8"
       >
         <div className="text-center">
-          <img src="/profile.jpg" alt="Rishi Kumar S" className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-cyan-400" />
+          <Image src="/profile.jpg" alt="Rishi Kumar S" width={128} height={128} className="rounded-full mx-auto mb-4 border-4 border-cyan-400" />
           <h2 className="text-3xl font-bold text-cyan-400 mb-2">About Me</h2>
         </div>
         <p className="text-lg text-gray-300 text-center max-w-2xl mx-auto">
