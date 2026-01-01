@@ -3,6 +3,16 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    name: "Telegram Sentinel",
+    tech: "Python, Node.js, FAISS, LLM",
+    link: "https://github.com/Rishirk2107/Telegram-Sentinal",
+    desc: [
+      "Architected a multi-service Telegram intelligence platform combining Python-based message ingestion with a Node.js API backend.",
+      "Implemented FAISS-powered vector search for fast and accurate contextual retrieval from large message corpora.",
+      "Integrated LLM-driven response generation to transform raw Telegram data into human-readable insights within seconds."
+    ]
+  },
+  {
     name: "Bash-AI",
     tech: "Shell-Scripting, Ollama, CLI commands",
     link: "https://github.com/Rishirk2107/Bash-AI",
@@ -60,6 +70,16 @@ export default function Projects() {
                   <li key={i}>{d}</li>
                 ))}
               </ul>
+              <div className="mt-4">
+                <a
+                  href={proj.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-cyan-500 hover:bg-cyan-400 text-black font-semibold transition"
+                >
+                  View on GitHub
+                </a>
+              </div>
             </motion.div>
           ))}
         </div>
